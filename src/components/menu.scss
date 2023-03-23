@@ -1,0 +1,53 @@
+.menu-container{
+  display: flex;
+
+  .border-r-1{
+    border-right: 1px solid #D9DBE3;
+
+    padding-right: 24px;
+    width: 1px;
+  }
+
+
+  .arrow {
+    position: relative;
+    top: 1px;
+    width: 7px;
+    height: 16px;
+    color: #4545F5
+  }
+  .right-arrow{
+    margin-left: 10px;
+  }
+
+  .left-arrow{
+    padding-left: 5px;
+    width: 20px;
+  }
+
+
+
+  .menu, .active-menu{
+    display: flex;
+    overflow: hidden;
+    .menu-item{
+
+      margin-left: 24px;
+      cursor: pointer;
+      white-space: nowrap;
+
+      .menu:first-child{
+        padding-right: 24px;
+      }
+    }
+
+
+
+
+  }
+  .active-menu{
+    overflow: hidden;
+    max-width: 90%;
+
+  }
+}
